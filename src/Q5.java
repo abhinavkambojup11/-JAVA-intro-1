@@ -27,7 +27,6 @@ public class Q5 {
     }
 
     public Q5(String fName, String lName, int age, String desig) {
-        super();
         this.fName = fName;
         this.lName = lName;
         this.age = age;
@@ -43,9 +42,9 @@ public class Q5 {
     }
 
     public static void main(String[] args) {
-        Q5 employee = new Q5();
+        Q5 employee1 = new Q5();
         Q5 employee2 = new Q5("Abhinav", "Kamboj", 22, "Software Engineer");
-        System.out.println(employee);
+        System.out.println(employee1);
         System.out.println(employee2);
     }
 }
